@@ -37,10 +37,12 @@ Style/Documentation:
     - 'config/initializers/scss.rb'
     - 'admin/app.rb'
     - 'models/account.rb'
+    - 'app/helpers/posts_helper.rb'
 
 Style/MultilineTernaryOperator:
   Exclude:
     - 'admin/controllers/accounts.rb'
+    - 'admin/controllers/posts.rb'
 
 Style/PredicateName:
   Exclude:

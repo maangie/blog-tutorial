@@ -40,3 +40,8 @@ gem 'padrino', '0.14.1.1'
 # end
 
 gem 'rubocop', group: :development
+
+group :development, :test do
+  gem 'pry-byebug'
+  gem 'pry-stack_explorer'
+end
