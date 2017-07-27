@@ -1,0 +1,52 @@
+Lint/EndAlignment:
+  Exclude:
+    - 'config/database.rb'
+
+Lint/ScriptPermission:
+  Exclude:
+    - 'config.ru'
+
+Lint/AmbiguousRegexpLiteral:
+  Exclude:
+    - 'models/account.rb'
+
+Lint/AssignmentInCondition:
+  Exclude:
+    - 'admin/controllers/sessions.rb'
+
+Metrics/LineLength:
+  Max: 132
+
+Metrics/BlockLength:
+  Max: 84
+
+Metrics/AbcSize:
+  Max: 31
+
+Metrics/CyclomaticComplexity:
+  Max: 10
+
+Metrics/PerceivedComplexity:
+  Max: 10
+
+Style/Documentation:
+  Exclude:
+    - 'spec/**/*'
+    - 'test/**/*'
+    - 'app/app.rb'
+    - 'config/initializers/scss.rb'
+    - 'admin/app.rb'
+    - 'models/account.rb'
+
+Style/MultilineTernaryOperator:
+  Exclude:
+    - 'admin/controllers/accounts.rb'
+
+Style/PredicateName:
+  Exclude:
+    - 'spec/**/*'
+    - 'models/account.rb'
+
+Style/Semicolon:
+  Exclude:
+    - 'admin/app.rb'
