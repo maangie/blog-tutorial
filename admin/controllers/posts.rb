@@ -13,6 +13,7 @@ BlogTutorial::Admin.controllers :posts do
 
   post :create do
     @post = Post.new(params[:post])
+    @post.account = currnet_account
     if begin
           @post.save
         rescue
